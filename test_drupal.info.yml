@@ -1,0 +1,8 @@
+## YAML Template.
+---
+name: Condition example module
+description: Creates a visibility condition.
+package: Custom
+
+type: module
+core: 8.x
