@@ -8,15 +8,15 @@ use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
- * Provides a 'Company' condition.
+ * Provides a 'Fruit' condition.
  *
  * @Condition(
- *   id = "company",
- *   label = @Translation("Company"),
+ *   id = "fruit",
+ *   label = @Translation("Fruit"),
  * )
  *
  */
-class Company extends ConditionPluginBase implements ContainerFactoryPluginInterface {
+class Fruit extends ConditionPluginBase implements ContainerFactoryPluginInterface {
 
   private $request;
   private $fruit_options;
